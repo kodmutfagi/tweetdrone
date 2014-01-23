@@ -11,7 +11,7 @@ var T = new Twit({
 });
 
 
-var client = arDrone.createClient();
+var client = arDrone.createClient({'ip':'192.168.1.1'});
 client.disableEmergency();
 
 console.log('Connecting png stream ...');
